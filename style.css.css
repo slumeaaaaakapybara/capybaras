@@ -1,0 +1,81 @@
+body{
+    background-color: burlywood ;/*цвет фона*/
+   
+
+}
+
+header{
+    background-color: rgb(238, 200, 129);/*цвет фона*/
+    height: 400px; /*высота блока*/
+    color: rgb(245, 226, 226); /*цвет текста*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;/*размер текста*/
+    background-image: url(https://dubhumans.com/content/images/1/1200x400e80nn0/khto-takyi-kapibara-i-chomu-vin-duzhe-populiarnyi-sered-ditei-25283630691226.jpg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+main{
+    height: 700px;
+    color: brown;
+    font-size: 25px;
+    height: 700px;
+
+}
+
+h1{
+    font-size: 60px;
+    color: aliceblue;
+    text-align: center;
+    text-shadow: rgb(255, 3, 3); 
+}
+.container{
+    width: 400px;
+    height: 200px;
+    background-color: burlywood;
+    
+}
+.left{
+    float: left;
+    width: 50%;
+    height: 100%;
+    background-color: rgb(255, 239, 185);
+    background-image: url(https://perito.media/uploads/post/image/3d31945c19878a4a9de5fb05b31e2968afeb1464af0b7381e565ba740901553a/126044684236316232206_DSC_1100.JPG);
+
+}
+
+.right{
+    float: right;
+    width: 50%;
+    height: 100%;
+    background-color: rgb(216, 138, 74);
+    color: aliceblue;/*цвет текста*/
+    font-size: 25px;/*размер текста*/
+    text-align: right;
+
+}
+footer{
+    background-color: bisque;/*цвет фона*/
+    color: brown;/*цвет текста*/
+    font-size: 25px;/*размар текста*/
+    height: 300px;
+    display: flex;
+}
+.f_left{
+    width: 30% ;
+    float: left;
+    text-align: center;
+    padding: 20px;
+}
+.f_right{
+width: 70%;
+float: right;
+}
+.f_right img{
+    width: 70px;
+}
+.f_right ul{
+    list-style:none ;
+    display: flex;
+    align-items: center;
+}
